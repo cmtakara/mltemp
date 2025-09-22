@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 1 - Lecture 1 - Linear Classifiers and Generalizations</title>
+</head>
+<body>
+    PUT WITH CODE - 
+    neural network
+            return (np.tanh(np.dot(inputs.T, weights)))
+    scalar function - 
+                if (x <= y):
+        return (x * y)
+    else:
+        return (x / y)
+    <ol>
+        <li>Overview</li>
+        <li>Objectives
+            <ol>
+                <li>understand the goal of machine learning from a movie recommender example</li>
+                <li>understand elements of supervised learning, and the difference between the training set and the test set</li>
+                <li>understand the difference of classification and regression - two representative kinds of supervised learning</li>
+            </ol>
+        </li>
+        <li>What is machine learning?</li>
+        <li>Introduction to supervised learning
+            <p>given an example and a target and the goal of the algorithm is to find how to produce the target from the example</p>
+        </li>
+        <li>Concrete Example of Supervised Learning Task
+            <p>Create a vector out of criteria - eg yes/no questions</p>
+            <ul>Questions
+                <li>Creating a feature vector given parameters and information about an example</li>
+                <li>Dimension of vector - note syntax is m * n for answers, or 1 * n, or n * 1</li>
+                <li>training versus test sets - identifying training versus test set and labels for training sets
+                    <p>training set provides labels for the outputs - test sets are unknowns to the algorithm</p>
+                </li>
+            </ul>
+        </li>
+        <li>Introduction to Classifiers
+            <p>Training data can be graphically depicted on a (hyper)plane. Classifiers are mappings that take feature vectors as input and produce labels as output. A common kind of classifier is the linear classifier, which linearly divides space(the (hyper)plane where training data lies) into two. Given a point x in the space, the classifier h outputs h(x) = 1 or h(x) = -1, depending on where the point x exists in among the two linearly divided spaces.</p>
+            <ul> Questions
+                <li>Linear Classifier - given a graph, identify if a point would be +1 or -1</li>
+                <li>Training Error - based only on the output of the TRAINING SET</li>
+                <li>Hypothesis Space is the set of possible classifiers (functions)</li>
+            </ul>
+        </li>
+        <li>Different Kinds of Supervised Learning - Classifiers versus Regression
+            <p>Classification maps feature vectors to categories. The number of categories need not be two - they can be as many as needed. Regression maps feature vectors to real numbers. There are other kinds of supervised learning as well.</p>
+            <a href="">Classification</a>&nbsp;&nbsp;<a href="">Regression</a>
+            <p>Question checks types of learning: supervised learning, unsupervised learning, semi-supervised learning, active learning, transfer learning, reinforcement learning</p>
+        </li>
+        <li>Supplementary Notes</li>
+    </ol>
+</body>
+</html>
